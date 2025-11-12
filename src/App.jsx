@@ -125,7 +125,7 @@ function PendulumPage({ setPage }) {
 /* ─────────────────────────────
    CATAPULT SIMULATION – PHET STYLE
    ───────────────────────────── */
-import { useRef, useEffect, useState } from "react";
+
 
 function CatapultPage({ setPage }) {
   const canvasRef = useRef(null);
@@ -245,7 +245,7 @@ function CatapultPage({ setPage }) {
 /* ─────────────────────────────
    PENDULUM SIMULATION – PHET STYLE
    ───────────────────────────── */
-import { useRef, useEffect, useState } from "react";
+
 
 function PendulumPage({ setPage }) {
   const canvasRef = useRef(null);
